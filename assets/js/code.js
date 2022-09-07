@@ -67,7 +67,7 @@ navba1.appendChild(navbar2)
 
 var aHijoUl = document.createElement("a")
 aHijoUl.className =" botoninicia text-white fonts"
-aHijoUl.style="font-size: 14px; "
+aHijoUl.style="font-size: 14px; text-decoration: none "
 aHijoUl.style.listStyle="none "
 aHijoUl.setAttribute("href", "#")
 aHijoUl.innerText="INICIAR SESIÓN"
@@ -113,18 +113,21 @@ divsection3.className="vidBotones d-grid"
 divsection2.appendChild(divsection3)
 
 var boton1 = document.createElement("button")
-boton1.className="placeholder bg-primary text-white"
+boton1.className= "btn btn-primary "
+boton1.style="width: 50%;padding:18px; margin-top: 4%;"
 boton1.innerText="SUSCRÍBETE A PARAMOUNT+"
 divsection3.appendChild(boton1)
 
 var boton2 = document.createElement("button")
-boton2.className ="btn btn-light placeholder text-white"
+boton2.className ="btn btn-outline-light"
 boton2.innerText = "YA TENGO PARAMOUNT+"
+boton2.style="width: 50%;padding:18px; margin-top: 1%;"
 divsection3.appendChild(boton2)
 
 var boton3 = document.createElement("button")
-boton3.className ="btn btn-outline-white btn-light placeholder text-white"
+boton3.className ="btn btn-outline-light "
 boton3.innerText = "YA TENGO PARAMOUNT+"
+boton3.style="width: 50%; padding:18px; margin-top: 1%;"
 divsection3.appendChild(boton3)
 
 
